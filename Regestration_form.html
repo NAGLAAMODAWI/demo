@@ -110,7 +110,7 @@ select option[value=""] {
 </head>
 <body>
   <div class="form-container">
-    <h2>User Registration Formm</h2>
+    <h2>User Registration Form</h2>
 
     <form id="userForm">
       <label>First Name</label>
@@ -153,8 +153,8 @@ select option[value=""] {
   </div>
 
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
-
+   
+ document.addEventListener("DOMContentLoaded", function() {
 // نقوم بتعريف متغير عالمي لتخزين البيانات المجلوبة مرة واحدة
 let countriesAndCities = [];
 
@@ -226,84 +226,76 @@ function loadCitiesFromLocalData(selectedCountry) {
         }
     });
 
-    // const form = document.getElementById("userForm");
-    // form.addEventListener("submit", async (e) => {
-    //     e.preventDefault();
-    //     const data = {
-    //         country: form.country.value.trim(), 
-    //     };
-    // });
+
 })();
 
 
     // Form submission
-    const form = document.getElementById("userForm");
-    const msg = document.getElementById("message");
+      const form = document.getElementById("userForm");
+      const msg = document.getElementById("message");
 
-    form.addEventListener("submit", async (e) => {
-      e.preventDefault();
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault(); // منع الإرسال الافتراضي
 
-      msg.textContent = "Sending...";
-      msg.className = "message";
+        msg.textContent = "Sending...";
+        msg.className = "message";
 
-      const data = {
-        first_name: form.first_name.value.trim(),
-        last_name: form.last_name.value.trim(),
-        phone_number: form.phone_number.value.trim(),
-        city: form.city.value.trim(),
-        country: form.country.value.trim(),
-       // unit_id: form.unit_id.value.trim(),
-      };
+        const data = {
+          first_name: form.first_name.value.trim(),
+          last_name: form.last_name.value.trim(),
+          phone_number: form.phone_number.value.trim(),
+          city: form.city.value.trim(),
+          country: form.country.value.trim(),
+          unit_id: form.unit_id.value.trim(), // لا تنس إضافة هذا الحقل
+        };
 
+        try {
+          const res = await fetch("https://development.vr-twins.com/api/form", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(data ),
+          });
 
-      try {
-        const res = await fetch("https://development.vr-twins.com/api/form", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(data),
-        });
+          // ... باقي كود معالجة الاستجابة (الكود الحالي جيد) ...
+          let result;
+          const contentType = res.headers.get("content-type");
+          if (contentType && contentType.includes("application/json")) {
+              result = await res.json();
+          } else {
+              const text = await res.text();
+              console.error("Server response was not JSON:", text);
+              result = { message: res.statusText || "Server returned non-JSON response." };
+          }
 
-        let result;
-        const contentType = res.headers.get("content-type");
-        if (contentType && contentType.includes("application/json")) {
-            result = await res.json();
-        } else {
-            // إذا لم تكن الاستجابة JSON، نقرأها كنص ونستخدم رسالة افتراضية
-            const text = await res.text();
-            console.error("Server response was not JSON:", text);
-            result = { message: res.statusText || "Server returned non-JSON response." };
-        }
+          if (res.ok) {
+            msg.textContent = "✅ Data submitted successfully!";
+            msg.className = "message success";
+            form.reset();
+          } else {
+            msg.textContent = "❌ Submission failed: " + (result.message || "Unknown error.");
+            msg.className = "message error";
+          }
 
-        if (res.ok) {
-          msg.textContent = "✅ Data submitted successfully!";
-          msg.className = "message success";
-          form.reset();
-        } else {
-          msg.textContent = "❌ Submission failed: " + (result.message || res.statusText || "Unknown error.");
+        } catch (err) {
+          msg.textContent = "❌ Network or script error. Check console.";
           msg.className = "message error";
+          console.error(err);
         }
-      } catch (err) {
-        msg.textContent = "❌ An error occurred during submission.";
-        msg.className = "message error";
-        console.error(err);
+      });
+
+
+      // --- الجزء الثالث: تحميل Unit ID من LocalStorage ---
+      const unitField = document.getElementById("unit_id");
+      if (unitField) {
+        const savedUnit = localStorage.getItem("selected_unit_id");
+        if (savedUnit) {
+          unitField.value = savedUnit;
+        } else {
+          unitField.value = "—";
+        }
       }
+
     });
- //end and start script tag
-document.addEventListener("DOMContentLoaded", function () {
-  const unitField = document.getElementById("unit_id");
-  if (!unitField) return;
-
-  const savedUnit = localStorage.getItem("selected_unit_id");
-
-  if (savedUnit) {
-    unitField.value = savedUnit;
-  } else {
-    unitField.value = "—";
-    unitField.setAttribute("readonly", true);
-  }
-});
-    });
-</script>
-
+  </script>
 </body>
-</html> 
+</html>
