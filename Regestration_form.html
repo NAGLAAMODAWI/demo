@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+     /* background-color: #0d1b2a;*/
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .form-container {
+      background-color: #1b263b;
+      border: 1px solid #1b263b;
+      border-radius: 10px;
+      /*padding: 40px 30px;*/
+      width: 365px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 12px;
+      /*margin-bottom: 5px;*/
+      font-size: 14px;
+      color: #ffffff;
+      margin-left: 8px;
+    }
+
+    input, select {
+      width: 95%;
+      margin-left: 5px;
+      padding: 10px;
+      border: 1px solid #415a77;
+      border-radius: 6px;
+      background-color: transparent;
+      /*color: #fff;*/
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    input, select .option {
+      color: #fff;
+     
+    }
+  select {
+  color: #fff; /* النص أبيض */
+  border: 1px solid #3a4560;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+select option[value=""] {
+  color: #ccc; /* اللون الرمادي للنص الافتراضي "Select Country" */
+}
+
+    input:focus, select:focus {
+      border-color: #4cc9f0;
+      color: #fff;
+      background-color: #1b263b;
+    }
+
+    button {
+      width: 30%;
+      margin-top: 20px;
+      margin-left: 3%;
+      padding: 10px;
+      background: linear-gradient(90deg, #4cc9f0, #4361ee);
+      border: none;
+      border-radius: 6px;
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+      transition: opacity 0.3s;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+
+    .message {
+      margin-top: 15px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .success { color: #4cc9f0; }
+    .error { color: #ef476f; }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>User Registration Form</h2>
+
+    <form id="userForm">
+      <label>First Name</label>
+      <input type="text" id="first_name" required>
+
+      <label>Last Name</label>
+      <input type="text" id="last_name" required>
+
+      <label>Phone Number</label>
+      <input type="tel" id="phone_number" required pattern="^[0-9+\-\s]{8,15}$">
+
+      <label>Country</label>
+      <select id="country" required>
+        <option value=""style="color: white;">Select Country</option>
+      </select>
+
+      <label>City</label>
+      <select id="city" required>
+        <option value="" style="color: #fff;">Select City</option>
+      </select>
+
+    <!-- <label>Unit ID</label>
+<select id="unit_id" required>
+  <option value="">Select Unit</option>
+</select> -->
+<label>Unit ID</label>
+<input
+  type="text"
+  id="unit_id"
+  name="unit_id"
+  readonly
+  required
+/>
+
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="message" class="message"></div>
+  </div>
+
+  <script>
+   
+
+// نقوم بتعريف متغير عالمي لتخزين البيانات المجلوبة مرة واحدة
+let countriesAndCities = [];
+
+async function loadCountriesFromLocalFile() {
+    try {
+        const res = await fetch('cities_data.json');
+        
+        if (!res.ok) throw new Error("Local file cities_data.json not found or failed to load.");
+        
+        const data = await res.json();
+      
+        const uniqueCountries = [...new Set(data.map(item => item.country))].sort();
+        
+        // تخزين البيانات كاملة لاستخدامها في دالة loadCities
+        countriesAndCities = data; 
+        
+        return uniqueCountries;
+
+    } catch (err) {
+        console.error("Local Data Load Error:", err);
+        //  إرجاع قائمة يدوية إذا فشل تحميل الملف
+        return ["Saudi Arabia", "United Arab Emirates", "Egypt"];
+    }
+}
+
+function loadCitiesFromLocalData(selectedCountry) {
+    if (!selectedCountry) return [];
+
+    // تصفية البيانات الكاملة للحصول على مدن الدولة المختارة فقط
+    const cities = countriesAndCities
+        .filter(item => item.country === selectedCountry)
+        .map(item => item.name);
+    
+    // إزالة المدن المكررة والفرز
+    return [...new Set(cities)].sort();
+}
+
+// التنفيذ الفوري (Initializer)
+(async () => {
+    // 1. جلب قائمة الدول من الملف المحلي
+    const countriesNames = await loadCountriesFromLocalFile();
+    const countrySelect = document.getElementById("country");
+    const citySelect = document.getElementById("city");
+
+    // Populate countries
+    countrySelect.innerHTML = `<option value="">Select Country</option>`;
+
+    countriesNames.forEach((name) => {
+        const option = document.createElement("option");
+        option.value = name; // القيمة هي اسم الدولة نفسه
+        option.textContent = name;
+        countrySelect.appendChild(option);
+    });
+
+    // 2. Event Listener: جلب المدن عند تغيير الدولة
+    countrySelect.addEventListener("change", (e) => {
+        const selectedCountry = e.target.value;
+        citySelect.innerHTML = `<option value="">Select City</option>`; // Reset city list
+        
+        if (selectedCountry) {
+            const cities = loadCitiesFromLocalData(selectedCountry);
+            
+            cities.forEach((cityName) => {
+                const opt = document.createElement("option");
+                opt.value = cityName;
+                opt.textContent = cityName;
+                citySelect.appendChild(opt);
+            });
+        }
+    });
+
+    // const form = document.getElementById("userForm");
+    // form.addEventListener("submit", async (e) => {
+    //     e.preventDefault();
+    //     const data = {
+    //         country: form.country.value.trim(), 
+    //     };
+    // });
+})();
+
+
+    // Form submission
+    const form = document.getElementById("userForm");
+    const msg = document.getElementById("message");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      msg.textContent = "Sending...";
+      msg.className = "message";
+
+      const data = {
+        first_name: form.first_name.value.trim(),
+        last_name: form.last_name.value.trim(),
+        phone_number: form.phone_number.value.trim(),
+        city: form.city.value.trim(),
+        country: form.country.value.trim(),
+       // unit_id: form.unit_id.value.trim(),
+      };
+
+
+      try {
+        const res = await fetch("https://development.vr-twins.com/api/form", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        });
+
+        let result;
+        const contentType = res.headers.get("content-type");
+        if (contentType && contentType.includes("application/json")) {
+            result = await res.json();
+        } else {
+            // إذا لم تكن الاستجابة JSON، نقرأها كنص ونستخدم رسالة افتراضية
+            const text = await res.text();
+            console.error("Server response was not JSON:", text);
+            result = { message: res.statusText || "Server returned non-JSON response." };
+        }
+
+        if (res.ok) {
+          msg.textContent = "✅ Data submitted successfully!";
+          msg.className = "message success";
+          form.reset();
+        } else {
+          msg.textContent = "❌ Submission failed: " + (result.message || res.statusText || "Unknown error.");
+          msg.className = "message error";
+        }
+      } catch (err) {
+        msg.textContent = "❌ An error occurred during submission.";
+        msg.className = "message error";
+        console.error(err);
+      }
+    });
+  </script>
+
+ <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const unitField = document.getElementById("unit_id");
+  if (!unitField) return;
+
+  const savedUnit = localStorage.getItem("selected_unit_id");
+
+  if (savedUnit) {
+    unitField.value = savedUnit;
+  } else {
+    unitField.value = "—";
+    unitField.setAttribute("readonly", true);
+  }
+});
+</script>
+
+</body>
+</html> 

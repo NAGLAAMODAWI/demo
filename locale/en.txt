@@ -1,0 +1,343 @@
+#: locale=en
+
+## Action
+
+### URL
+PopupWebFrameBehaviour_45928269_5414_F4D5_41D4_7910963B0F8D.url = Regestration_form.html
+WebFrame_521A7534_4015_7C00_41C0_6120B4E4C431.url = Regestration_form.html
+WebFrame_81C5D16D_996E_AA3A_41E0_BA740B304D37.url = https://development.vr-twins.com/map/
+LinkBehaviour_1595690C_0122_ECED_4163_DEED559B5E1F.source = https://vr-twins.com/
+
+## Hotspot
+
+### Tooltip
+HotspotPanoramaOverlayArea_DC7D4310_C50C_D801_41E1_9BD8E229A2CE.toolTip = Floor 1
+HotspotPanoramaOverlayArea_1A1EBB6D_05EB_5B81_4194_B174969CD1A0.toolTip = Human View 1
+HotspotPanoramaOverlayArea_1A0B7ED1_05EA_FA81_4179_5D8B716C24A9.toolTip = Human View 3
+HotspotPanoramaOverlayArea_AC3E5D65_90F1_F265_41DD_35C84243B6DB.toolTip = LEft
+HotspotPanoramaOverlayArea_3D56A5F9_B91F_204D_41D8_DB603AFB3BD3.toolTip = Sold
+HotspotPanoramaOverlayArea_3FAC489F_BB15_60C5_41CD_885656DA3A2C.toolTip = Sold
+HotspotPanoramaOverlayArea_3A059B51_BB15_205D_41E3_2A6D98443C68.toolTip = Sold
+HotspotPanoramaOverlayArea_20B26775_BB0F_2045_41D0_B8583DB82924.toolTip = Sold
+HotspotPanoramaOverlayArea_3B596E24_BB7B_23FB_41E0_41F6AA0966A7.toolTip = Sold
+HotspotPanoramaOverlayArea_26AE425C_BB7F_204B_41E6_7D54A68063DF.toolTip = Sold
+HotspotPanoramaOverlayArea_3E0780DE_BB7B_2047_41DB_9C4CE2B11FA0.toolTip = Sold
+HotspotPanoramaOverlayArea_38547E54_BB77_205B_41C5_047391AE8C7E.toolTip = Sold
+HotspotPanoramaOverlayArea_3AF87A1A_BB0B_23CF_41E2_ED46C24344FD.toolTip = Sold
+HotspotPanoramaOverlayArea_3FDC94E3_B937_607D_41C7_211B4E51C115.toolTip = Sold
+HotspotPanoramaOverlayArea_3E582E57_B91A_E045_41E3_E0F9B7A7239E.toolTip = Sold
+HotspotPanoramaOverlayArea_269D954B_B9FB_204D_41E6_4B612BBDC981.toolTip = Sold
+HotspotPanoramaOverlayArea_3A1D5596_B9F7_E0C7_41E1_DEF53396C9CC.toolTip = Sold
+HotspotPanoramaOverlayArea_3FB8DD08_BB0B_61CB_41C7_D93473597072.toolTip = Sold
+HotspotPanoramaOverlayArea_26781F5C_BB15_204B_41D6_A81FDBEFC978.toolTip = Sold
+HotspotPanoramaOverlayArea_27C59EAB_BB1B_E0CD_41D0_2B51928BFA52.toolTip = Sold
+HotspotPanoramaOverlayArea_3E624F5B_BB1F_204D_41CF_BAFBF50B0DB2.toolTip = Sold
+HotspotPanoramaOverlayArea_21DCDF6F_BB1A_E045_41DD_EEEB85444896.toolTip = Sold
+HotspotPanoramaOverlayArea_3FAC32E1_BB17_207D_41A9_25C435893E0C.toolTip = Sold
+HotspotPanoramaOverlayArea_21065839_BB1A_EFCD_41E2_69B785339C8F.toolTip = Sold
+HotspotPanoramaOverlayArea_38F6BFD1_BB0D_205D_41DE_38E6FD6AEBB9.toolTip = Sold
+HotspotPanoramaOverlayArea_3EA3BC10_BB15_27DB_41D3_497ED37BA7B3.toolTip = Sold
+HotspotPanoramaOverlayArea_27591CF0_B917_205B_41B0_B5E8BCD708B5.toolTip = Sold
+HotspotPanoramaOverlayArea_331485E4_B93F_E07B_41B9_B2FCDB3F1C9D.toolTip = Sold
+HotspotPanoramaOverlayArea_32C4E1FA_B93D_604F_41DA_99D0CBAAA7E4.toolTip = Sold
+HotspotPanoramaOverlayArea_3F00E599_B936_E0CD_41E5_6ECD47296082.toolTip = Sold
+HotspotPanoramaOverlayArea_3B7A699C_B90F_60CB_41E6_0E60D85578BA.toolTip = Sold
+HotspotPanoramaOverlayArea_3F2FF163_B9F5_207D_41C4_2EBE128290F7.toolTip = Sold
+HotspotPanoramaOverlayArea_24ACE431_B9FA_E7DD_41DF_36E5F1BB0738.toolTip = Sold
+HotspotPanoramaOverlayArea_7404454E_687B_F9D8_41C0_A0553DB3A45D.toolTip = Sold
+HotspotPanoramaOverlayArea_73A2F059_687A_F7F8_41C5_1187711274D2.toolTip = Sold
+
+## Media
+
+### Floorplan
+
+### Image
+imlevel_B4A5383D_9E41_55BE_41DD_8A7A889619FA.url = media/map_E7665A05_D571_54E7_41DF_557DD70B3EEB_en_0.webp
+imlevel_B4A5283D_9E41_55BE_41E1_B5279DA58FBB.url = media/map_E7665A05_D571_54E7_41DF_557DD70B3EEB_en_1.webp
+imlevel_B4A5283D_9E41_55BE_41E1_6909B8DDD891.url = media/map_E7665A05_D571_54E7_41DF_557DD70B3EEB_en_2.webp
+imlevel_B4AB885D_9E41_55FE_41C9_AD4C7AEEEC53.url = media/map_FA4B0A78_D2D3_D52D_41E8_5163AFB0F058_en_0.webp
+imlevel_B4ABA85D_9E41_55FE_41A3_49B794D4582C.url = media/map_FA4B0A78_D2D3_D52D_41E8_5163AFB0F058_en_1.webp
+imlevel_B4AB585D_9E41_55FE_41E1_D7CAE168C66F.url = media/map_FA4B0A78_D2D3_D52D_41E8_5163AFB0F058_en_2.webp
+imlevel_B4A8E873_9E41_55CA_4171_F17F77ABF23C.url = media/map_FB523A5F_D2D0_D563_41E2_7AF2237EDB5C_en_0.webp
+imlevel_B4A8B873_9E41_55CA_4185_E44796C9EFF3.url = media/map_FB523A5F_D2D0_D563_41E2_7AF2237EDB5C_en_1.webp
+imlevel_B4A8A874_9E41_55CE_41D4_FB8B0C34F18E.url = media/map_FB523A5F_D2D0_D563_41E2_7AF2237EDB5C_en_2.webp
+
+### Title
+photo_F06E1B8D_E4BB_759F_41D8_E3B6355F24DA.label = A11
+photo_F06E1B8D_E4BB_759F_41D8_E3B6355F24DA.label = A11
+photo_F7CDAE73_E4B4_8E8B_41E8_B74593FCE058.label = A22
+photo_F7CDAE73_E4B4_8E8B_41E8_B74593FCE058.label = A22
+photo_F7CC720C_E4B4_969D_41BE_A1FCD0983495.label = A33
+photo_F7CC720C_E4B4_969D_41BE_A1FCD0983495.label = A33
+model_35A812A6_B916_E0C7_4173_234853BC283A.label = Al-Sadafa_B1 VILLA
+model_87EC7E3E_B90B_1DDB_41D3_722F82ADAE3D.label = Al-Sadafa_B1_FirstFloor
+model_87DB24A8_B90B_6EE6_41DE_31DE55DADC6F.label = Al-Sadafa_B1_GroundFloor
+model_88DCC977_B90B_6669_41D3_1D7790C8F7F7.label = Al-Sadafa_B1_Roof
+panorama_FB608F0F_D551_2CE3_41C1_FAEC55ECEAA0.label = Bathroom_2
+panorama_FABB0808_D551_34EE_41E6_3A1FB7908467.label = Bathroom_3
+panorama_EA48963C_DF7D_D0AD_41D0_887A9A71CEA5.label = Bedroom_1
+panorama_C66E7BA0_D2D7_2BDC_41BC_E17FF3F23393.label = Bedroom_2
+panorama_C7A8C8A1_D2D1_35DC_41E0_A490F8A4B452.label = Bedroom_3
+panorama_D58391E7_C503_580F_41E7_C82505715D7E.label = Dining room
+panorama_CAB7BAA1_C504_E800_41E6_ADEB62BD2E37.label = Dressing room
+panorama_82FB88B3_9A6A_E74F_41D0_4B65A017ED04.label = Dron rainy day
+panorama_CC061C07_8F9C_29E3_41B3_29DB69593927.label = Drone-Night
+panorama_DE568792_C50C_D801_41C6_372A7032AD60.label = Floor 1
+panorama_EB1A84E6_DF04_B1DD_41E5_24E88FE9124B.label = Floor 2
+panorama_E83649A6_DF03_705A_41BB_80F6D6833F03.label = Floor 3
+panorama_D9B35962_9070_339E_41DD_C3AE617E401E.label = Human left day
+panorama_B13A9C42_9030_319F_41D7_37EAC6843908.label = Human left night
+panorama_BBC3C3A5_9C4E_7574_41C4_11C0199B9466.label = Human night rain
+panorama_B13AE1D3_9030_52BE_41CF_A251D5446D9F.label = Human right day
+panorama_B13A86E8_9030_5E6B_41A9_2390BAE881F5.label = Human right night
+panorama_B2B47E8C_93F0_6EAB_41DC_B97EB06EA80C.label = Human-Day - Rain
+panorama_B3779B3C_9010_37EA_41A4_C0DB5833235C.label = HumanView1_Day
+panorama_ABBDBD7A_9033_D26F_41D4_B269ACD8E102.label = HumanView1_Night
+panorama_1D4898B1_9030_52FD_419A_5ACDEEC5C87B.label = HumanView_Night rain
+panorama_D5180E7C_C505_6800_41E6_C3E4FD8A0DDC.label = Living room
+panorama_CAC8EF3D_C50D_A800_41DD_81DADF64E822.label = Living room
+panorama_F2A34803_E48B_016E_41CD_6ADDE8A7A828.label = Maid Room
+panorama_D55137F6_C51D_7800_41E1_AA9D0CAD3FC2.label = Master bathroom
+panorama_CAE81098_C50F_D800_41E1_7E0A96869910.label = Master room
+video_1E96E620_0755_804D_418C_4C502D1BD772.label = Move
+album_792AE0BE_42DD_9CB4_41C0_6DAEA9AF6D72.label = Photo Album 1
+album_F81D7345_E489_07EA_41D4_6F06F441AC60.label = Photo Album G
+panorama_F2974AB2_E489_06AE_41E1_C32C24CE800A.label = Storage
+panorama_D02693BD_BB1B_2AD9_41D5_6BD508E41D93.label = Types
+video_0825366E_06B3_80D5_418C_3E0CC4BCFBD2.label = View_vedio
+photo_2E7C6EA0_0DE0_47C7_415D_B4454798FF00.label = aLBOU2
+photo_2E7C6EA0_0DE0_47C7_415D_B4454798FF00.label = aLBOU2
+photo_2E2A01CC_0DE0_5D5E_4198_753832595890.label = aLBOUM1
+photo_2E2A01CC_0DE0_5D5E_4198_753832595890.label = aLBOUM1
+photo_2E2AC4C7_0DE0_5B49_41A9_E79E72E44795.label = aLBOUM3
+photo_2E2AC4C7_0DE0_5B49_41A9_E79E72E44795.label = aLBOUM3
+photo_2E2A6831_0DE0_4AC6_41A5_2CCEB212E1D5.label = aLBOUM4
+photo_2E2A6831_0DE0_4AC6_41A5_2CCEB212E1D5.label = aLBOUM4
+panorama_B3A99553_9031_F3BD_41DD_8380DB6893F5.label = back day
+panorama_CE6C4F4A_8F9C_266D_4157_DD0ACEE33FBA.label = back night
+panorama_6EE7933D_6344_4104_41D0_8A7673C012F0.label = back night
+panorama_CAFF54A9_C51F_5803_41E1_8F7DEA5CC856.label = bath-room
+video_1593F0B7_06DC_81B4_4186_4069BA6F9A53.label = cat
+map_E7665A05_D571_54E7_41DF_557DD70B3EEB.label = floor plan 2
+panorama_C7D66090_8FFC_3AFD_4187_25E11531A903.label = front
+panorama_B13A90B8_9031_D2EB_41D9_D72277660A5C.label = front day human
+panorama_B13A8B7F_9031_D665_41D5_021F1EA30F7D.label = front night
+panorama_CB45F4B2_8FE5_FA3D_41D8_AFFC6F492172.label = front night
+panorama_EFA029B3_8FBC_2A23_41D5_9A4748976581.label = front_night - rainy
+panorama_B13A9120_9030_339A_41AC_2B060E45389C.label = human front night
+map_FA4B0A78_D2D3_D52D_41E8_5163AFB0F058.label = inside floor 2
+map_FB523A5F_D2D0_D563_41E2_7AF2237EDB5C.label = inside floor 3
+panorama_F382EAE3_E489_06AE_41E5_A21A489C6FC8.label = kitchen
+panorama_B29726CD_8E9F_E666_41A9_6486A3268450.label = left
+panorama_CC5058F0_8FAC_2A3D_41D5_B8E0A848036F.label = left night
+panorama_C6E2F756_8FFC_6665_41A8_81A0FB2E7D6E.label = main_image
+video_E183C392_B90B_2AAB_41E2_9FADDD2724C0.label = move_Dv5mqJLY
+panorama_F9459F84_877C_E4BF_41D5_F7580DD96CED.label = right
+panorama_CB34A2A9_8FAC_3E2F_41D2_DE225A3787EF.label = right night
+panorama_B13AC6E1_9030_7E9D_41D1_56AF1ECDE90A.label = road 3 day
+panorama_B13A9CDF_9030_72A5_41C7_F68255E32983.label = road 3 night
+panorama_B13AD2D5_9030_56A5_41AE_A9534D24C100.label = roud_1_day
+panorama_B13A88A8_9030_52EA_41C5_D1911B02D15A.label = roud_1_night
+video_1009AA1B_0755_8073_419C_D609EDA09E49.label = wall
+
+### Video
+videolevel_B4FA4155_9E41_57CE_41CA_73548C19767D.url = media/video_0825366E_06B3_80D5_418C_3E0CC4BCFBD2_en.mp4
+videolevel_B4FA4155_9E41_57CE_41CA_73548C19767D.posterURL = media/video_0825366E_06B3_80D5_418C_3E0CC4BCFBD2_poster_en.jpg
+videolevel_B63F097B_9E41_57BA_41DD_800CA5F4BF66.url = media/video_1009AA1B_0755_8073_419C_D609EDA09E49_en.mp4
+videolevel_B63F097B_9E41_57BA_41DD_800CA5F4BF66.posterURL = media/video_1009AA1B_0755_8073_419C_D609EDA09E49_poster_en.jpg
+videolevel_B63F990C_9E41_575E_41D1_4188249E7B9B.url = media/video_1593F0B7_06DC_81B4_4186_4069BA6F9A53_en.mp4
+videolevel_B63F990C_9E41_575E_41D1_4188249E7B9B.posterURL = media/video_1593F0B7_06DC_81B4_4186_4069BA6F9A53_poster_en.jpg
+videolevel_B63F5932_9E41_574A_41D0_4FB349CB9DBE.url = media/video_1E96E620_0755_804D_418C_4C502D1BD772_en.mp4
+videolevel_B63F5932_9E41_574A_41D0_4FB349CB9DBE.posterURL = media/video_1E96E620_0755_804D_418C_4C502D1BD772_poster_en.jpg
+videolevel_B63CE9BF_9E41_56BA_41DF_BD34B37C525D.url = media/video_E183C392_B90B_2AAB_41E2_9FADDD2724C0_en.mp4
+videolevel_B63CE9BF_9E41_56BA_41DF_BD34B37C525D.posterURL = media/video_E183C392_B90B_2AAB_41E2_9FADDD2724C0_poster_en.jpg
+
+### Video Subtitles
+
+## Skin
+
+### Button
+Button_55B2F53E_4F2D_B446_41A2_1E5997D6C52F.label = 1 Bath
+Button_55B31544_4F2D_B43A_41A9_1BA4C4C4A0BB.label = 1 Rooms
+Button_55B0D547_4F2D_B4C6_41C9_96186210D6EB.label = 100- 150 m²
+Button_55B08547_4F2D_B4C6_41CC_6A214FB56632.label = 150-200 m²
+Button_55B2353F_4F2D_B446_41C2_2126CF0FF7D7.label = 2 Bath
+Button_55B3C543_4F2D_B43E_41D3_9EE5D71FB0A9.label = 2 Rooms
+Button_55B5653B_4F2D_B44E_41D1_29F08D32C96A.label = 20-200K
+Button_55B09546_4F2D_B4C6_41B0_293077600BBC.label = 200-300 m²
+Button_55B2953C_4F2D_B44A_41C6_C2C05632F213.label = 200-300K
+Button_55B38542_4F2D_B43E_41C0_04C2AFC72150.label = 3 Rooms
+Button_55B52539_4F2D_B44A_41D0_91C5C2CC5AE3.label = 300-500K
+Button_55B22540_4F2D_B43A_4199_A0BE55E86D26.label = 4 Bath
+Button_55B0F548_4F2D_B4CA_41C6_D6613CA386A0.label = 40-100m²
+Button_55B2A53D_4F2D_B44A_41CF_92C9D5675DF9.label = 500-1000K
+Button_55B26542_4F2D_B43E_41C0_1CA52D7C13E7.label = 80 m²
+Button_7993E3EF_681A_98D8_41D2_5E38656FEBDA.label = A
+Button_20162119_05B9_C780_4191_6C473E2F88C8.label = All Floors
+Button_55B7E532_4F2D_B45E_41C7_6C26DF5B93B7.label = B
+Button_55B5D536_4F2D_B446_41D1_607F2E38BB70.label = C
+Button_55B58535_4F2D_B45A_41BE_3DB8A8A42B6D.label = D
+Button_55B51537_4F2D_B446_41CB_7E800703C06C.label = D
+Button_7AF4242F_681A_BF59_4184_B7B6FF34F1C4.label = E
+Button_799C5B51_681A_A9C8_41B5_9CA6DBC907A0.label = F
+Button_82C5533E_9010_57E7_41DE_9323C27C0F04.label = F1
+Button_2D54A88A_05BB_4683_418E_B914A02CD074.label = F1
+Button_EAD9638B_DF7D_706B_41CD_53C361D47E0A.label = F2
+Button_22DF3DD3_05BB_5E81_418C_F57642E742C5.label = GF
+Button_822D0EED_9010_2E65_41BD_E871F8CA0820.label = GF
+Button_A4BAABF8_93A7_7EF2_41D4_F92886668508.label = Interest for Unite
+Button_6B9D6BAC_14C1_D19A_4189_563EC255FD49.label = Interior
+Button_A88148A7_9398_991E_41D3_3F26E5806D3C.label = Media
+Button_2CEDBC21_05BB_7D81_416C_EDC3D8673104.label = Roof
+
+### Image
+Image_14E3C58C_012E_67ED_416B_D221F6069A79.url = skin/Image_14E3C58C_012E_67ED_416B_D221F6069A79_en.png
+Image_D0752BAD_C372_B621_41D1_A4115388E9BC.url = skin/Image_D0752BAD_C372_B621_41D1_A4115388E9BC_en.png
+
+### Label
+Label_6FFDB551_1440_F68D_4163_D320F0B28D29.text = 187m²
+Label_6C8A8EE3_1440_F38F_41AE_DE451B9F202E.text = 198K
+Label_6ACB4FDD_1440_D1BA_41A4_547C32B3F2FC.text = 2
+Label_6B80382F_1440_FE96_41B0_EEB9DD132846.text = Bathroom
+Label_55B1D549_4F2D_B4CA_41C1_8C1B44BFF804.text = Bathrooms
+Label_6B232A75_1440_D28B_41B0_AE04D894C605.text = Bedrooms
+Label_55B1B549_4F2D_B4CA_41C2_10215CA7587F.text = Bedrooms
+Label_94B9B6AA_1440_5399_41A5_7A2C53B3A0FE.text = Price
+Label_55B1B549_4F2D_B4CA_41C3_C34504FA0312.text = Price
+Label_55B1F549_4F2D_B4CA_41C1_786DA2EBD7E7.text = Surface
+Label_68898809_1443_DE9A_41AB_885C38C335E2.text = Surface
+Label_55B19548_4F2D_B4CA_41D1_11187DC5F5FC.text = Types
+Label_862972D7_96DF_DACA_41A0_8372D4B06F57.text = لا توجد وحدات سكنية بهذه المواصفات
+
+### Multiline Text
+HTMLText_597298EE_4DB0_02A0_41D3_612EDDDB4513.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:18px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:15px;font-family:'Poppins SemiBold';"><B> </B></SPAN><SPAN STYLE="color:#ffffff;font-size:18px;font-family:'Poppins SemiBold';"><B>Al-Sudfa Project</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:15px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:4.01px;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:justify;font-size:13px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-line;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:13px;font-family:'Poppins SemiBold';"><B>The project presents an ideal opportunity for families seeking a luxurious and modern home in a prime location with high-quality standards.</B></SPAN></SPAN></DIV><DIV STYLE="text-align:justify;font-size:13px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-line;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:13px;font-family:'Poppins SemiBold';"><B>The villas feature elegant, contemporary designs with spacious layouts that meet all the needs and requirements of modern living.</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:15px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:4.01px;font-family:Arial, Helvetica, sans-serif;"/></p><p STYLE="margin:0; line-height:15px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:4.01px;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:20px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:20px;font-family:'Poppins SemiBold';"><B>Project Features</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:15px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:4.01px;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:13px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:13px;font-family:'Poppins SemiBold';"><B>The project offers an ideal opportunity for families seeking a luxurious and modern home in a prime location with high-quality standards.</B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:13px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:13px;font-family:'Poppins SemiBold';"><B>The villas feature contemporary and elegant designs with spacious layouts that cater to all the needs and requirements of modern living.</B></SPAN></SPAN></DIV></div>
+
+### Tooltip
+IconButton_245F0BD9_0EC1_9B1A_41AB_5CAC044AC436.toolTip = About Project
+IconButton_46389EA6_52F2_31D1_41D3_80292F8CE089.toolTip = Daytime
+IconButton_5B9FD11D_4F2B_8C4A_41C7_CDB7CB43E782.toolTip = Daytime
+IconButton_24203BDE_0EC1_9B16_419F_D108F6677C19.toolTip = Drone View
+IconButton_24204BDF_0EC1_9B16_41A1_CF21BCAC66D7.toolTip = Human View
+IconButton_5B53B8AB_4F14_9C4E_41BE_DFC994934DEB.toolTip = Nighttime
+IconButton_463D4EA5_52F2_31D3_41D1_667C38C6E54D.toolTip = Nighttime
+IconButton_832A645A_9C43_D3DC_41DD_7CF425B2B3CC.toolTip = Rainy
+IconButton_5A038E5C_4F2B_74CA_41B6_D671D4927CA4.toolTip = Rainy
+IconButton_46385EA7_52F2_31DF_41BE_9ED33D12D4E9.toolTip = Rainy
+IconButton_B9AE866F_9C42_7FF4_41D3_CD21BF72739F.toolTip = Rainy
+IconButton_87FD5AAD_9B74_6FE9_41C1_69556BABA9C7.toolTip = Return From interior
+Image_D0752BAD_C372_B621_41D1_A4115388E9BC.toolTip = Show Floor Plans
+IconButton_245E9BDB_0EC1_9B1E_41A6_1B73578816DD.toolTip = Surrounding
+IconButton_5A8D60C9_4F1B_8DCA_41AF_0801AC2B8CDF.toolTip = Time
+IconButton_46B74E0F_52D2_30EE_41BD_0B29E48084DC.toolTip = Time
+Container_01684DE3_2152_E5E1_41AB_1FAAA8AE24BC.toolTip = Time and wether
+Container_46B71E0F_52D2_30EE_41C1_FE17CE0D6EB5.toolTip = Time and wether
+IconButton_245EABDC_0EC1_9B1A_41A1_20A67C28C337.toolTip = Types
+IconButton_245C0BD7_0EC1_9B16_4193_20327C4A5EF2.toolTip = Views
+
+## Tour
+
+### Description
+
+### Title
+tour.name = Virtual twins
+
+## VR Menu
+
+### Text
+MenuItem_4F2983D3_5332_5777_41BD_F9C5F42C9C72.label = 1
+MenuItem_42F7A4FE_5FE3_6D0F_41D5_06729D7BC436.label = 222
+MenuItem_4AFB0D32_5332_D331_41C3_8BF831EC227D.label = 33
+MenuItem_3E5441AD_290A_219A_41C2_308E71D53DBD.label = 3D_Home
+MenuItem_3E57D1AC_290A_219A_4197_69C77257AAF2.label = 3d_floor_plan_of_home
+MenuItem_E2C2C4FC_C71F_D800_41E6_70823AE7E515.label = 5
+MenuItem_A0AB1EEB_9CC6_ECFC_41C6_55571B9DDCD1.label = Al-Sadafa_B1 Model
+MenuItem_A2911A41_9CFE_D72C_41DD_4CEDB1BD07EC.label = Al-Sadafa_B1 Model
+MenuItem_3794EC5F_B91D_2045_41D3_7801ADBF58C1.label = Al-Sadafa_B1 VILLA
+MenuItem_8C5EBF26_B90B_7BEB_41E1_7818572428E3.label = Al-Sadafa_B1_FirstFloor
+MenuItem_8C5EAF26_B90B_7BEB_41C8_92DB652C594D.label = Al-Sadafa_B1_GroundFloor
+MenuItem_8C5E9F26_B90B_7BEB_41E5_56D28B610717.label = Al-Sadafa_B1_Roof
+MenuItem_3E5411AD_290A_219A_41C2_829C2362074A.label = Bath room
+MenuItem_EC76D762_D551_7B5D_41EA_133C0E7F6EC0.label = Bathroom_2
+MenuItem_EC76C762_D551_7B5D_41CA_F29E8FE62D15.label = Bathroom_3
+MenuItem_812F42DA_A90D_6A5B_41D7_F6054AE87D8C.label = Bed room
+MenuItem_3E56E1AB_290A_219E_41BD_D76C5AF29D37.label = Bedroom
+MenuItem_3E54B1AD_290A_219A_419D_250BDB48ACE3.label = Bedroom
+MenuItem_E2C244F7_C71F_D80F_41DD_A98547DAED02.label = Bedroom_1
+MenuItem_CE2E7F2C_D331_6B25_41EA_2698443126C8.label = Bedroom_2
+MenuItem_CE2E0F2D_D331_6B27_41DE_A04AA50641FF.label = Bedroom_3
+MenuItem_142CC685_90F0_5EA5_41D9_067C0E9FD79E.label = Dining room
+MenuItem_142D0685_90F0_5EA5_41E2_30627C9492EC.label = Dressing room
+MenuItem_80C3CBFF_9A97_B8B7_41D1_52CF49C21C2F.label = Dron rainy day
+MenuItem_3E54D1AD_290A_219A_418C_75B7E8815696.label = Drone-Day
+MenuItem_B0CBC0AB_A5E1_A3FF_41C2_56B96B425372.label = Drone-Day
+MenuItem_3E54C1AD_290A_219A_41BA_A01F6BC64B17.label = Drone-Night
+MenuItem_E2C2D4FC_C71F_D800_41E1_DC0F5E335D3B.label = Floor 1
+MenuItem_E2C234F7_C71F_D80F_41C2_766A8C639645.label = Floor 2
+MenuItem_C38523BB_D2D1_DB2C_41DF_DF87FAB0E5D9.label = Floor 3
+MenuItem_3E5431AD_290A_219A_419D_2B057ADC8CD1.label = Hallway
+MenuItem_1F23F454_0C60_3B4E_418E_BA6AB2F4CF6A.label = HighresScreenshot00000
+MenuItem_1481E635_0CA0_46CE_41A3_4BA2497CAE0C.label = HighresScreenshot00000
+MenuItem_978DAC04_A71D_3DAF_41CA_F4FFF2F2B04C.label = HighresScreenshot00000
+MenuItem_B638CA4B_9010_F1AD_41D8_2EBDD1BDFA3A.label = Human left day
+MenuItem_B6387A4B_9010_F1AD_41D9_55A669D6942F.label = Human left night
+MenuItem_B565DCBE_9C42_5354_41C1_AFCF06331CB3.label = Human night rain
+MenuItem_B6380A4B_9010_F1AD_41BA_4118DDCBA9CA.label = Human right day
+MenuItem_B638CA4B_9010_F1AD_41C3_F7FCF3948F2B.label = Human right night
+MenuItem_3E5731AC_290A_219A_41C1_66F256DEA33B.label = Human-Day - Rain
+MenuItem_3E5771AC_290A_219A_41C0_7CC6ADBE8AF5.label = Human-Night
+MenuItem_3E57E1AD_290A_219A_419C_6B35C3E4B23E.label = HumanView1_Day
+MenuItem_3E5421AD_290A_219A_41C3_EBBF8E954D51.label = HumanView1_Night
+MenuItem_3E5461AD_290A_219A_41BC_48AAFACDCA9F.label = HumanView2_Day
+MenuItem_3E5761AC_290A_219A_41A2_A2D9244AA9AC.label = HumanView3_Day
+MenuItem_3E5751AC_290A_219A_41BF_591A722DFEF1.label = HumanView3_Night
+MenuItem_3E54A1AD_290A_219A_41B1_E6F97D16D9BF.label = HumanView_Night rain
+MenuItem_3E5471AD_290A_219A_41B0_25E2B44E66BB.label = Kitchen
+MenuItem_142D2685_90F0_5EA5_41C5_788284C6037A.label = Living room
+MenuItem_3E57F1AC_290A_219A_41B2_50325E3D5FF4.label = Living room
+MenuItem_142D5685_90F0_5EA5_41D4_782B89BF3AB3.label = Living room
+MenuItem_3E5741AC_290A_219A_4199_C651E5F021CA.label = Living room
+MenuItem_142CE685_90F0_5EA5_41DC_B4D880C884C0.label = Living room
+MenuItem_FF4902BB_E489_069D_41D1_204337898183.label = Maid Room
+MenuItem_3E5711AC_290A_219A_41C2_5E3EF8E42149.label = Main entrance
+MenuItem_E82754B7_BB0D_EEE9_41BC_7C9A618DEE2D.label = Master bathroom
+MenuItem_3E5721AC_290A_219A_41A1_519D935AC36B.label = Master bathroom
+MenuItem_3E57B1AC_290A_219A_41A8_372B659C7970.label = Master bedroom
+MenuItem_142D1685_90F0_5EA5_41DF_D53ABAC10F2A.label = Master room
+Menu_3E34F0D2_290A_3F8E_41C1_BA1C834D2A35.label = Media
+MenuItem_064991CD_BB0D_6045_41C9_851F6595F140.label = NewLevelSequence1.0000
+MenuItem_3E5491AD_290A_219A_41A7_8A5638FCE22C.label = Powder room
+MenuItem_3E5401AD_290A_219A_4186_0A0B2369B320.label = Rainy Day
+MenuItem_E90C82A1_8FA4_5EDE_41DA_45F0F5DFAB07.label = Rainy Day
+MenuItem_B6AA9B99_A5D6_1B5E_41C7_F2B445952DF4.label = Screenshot 2025-07-13 191838
+MenuItem_B6AAAB99_A5D6_1B5E_41D2_AA05CE93C8E4.label = Screenshot 2025-07-13 192238
+MenuItem_FF4972BB_E489_069D_41E1_9E94AFB63E69.label = Storage
+MenuItem_F1DFA135_E389_03AA_41D0_C5D71BA65A09.label = VERSION 1 - Mobile
+MenuItem_3E5451AD_290A_219A_41B1_94866CB59E15.label = Washing area
+MenuItem_534AE326_4816_8CF9_41B1_E112A1B30AE9.label = WhatsApp Image 2025-09-14 at 16.16.36_fe92256c
+MenuItem_B6382A4B_9010_F1AD_41C9_2569FDA0F63F.label = back day
+MenuItem_CBC60853_8FA5_EA63_41BC_60014B0921C3.label = back night
+MenuItem_B6385A4B_9010_F1AD_419C_332E790DCA32.label = back night
+MenuItem_8128A2DA_A90D_6A5B_41AE_C1CA058C9389.label = bath-room
+MenuItem_FB4961F9_E877_D6AF_41E6_3E4AC6FCC1C6.label = d
+MenuItem_FB4941F9_E877_D6AF_41C1_F2347B8B2712.label = dd
+MenuItem_690A476C_7111_65D1_41D9_DBAEEC3596E3.label = front
+MenuItem_B638DA4B_9010_F1AD_41CC_A4BBA765A379.label = front day
+MenuItem_B638EA4B_9010_F1AD_41DC_EB0CC9ABF36E.label = front day human
+MenuItem_B6384A4B_9010_F1AD_41C1_ACC375A2BD7C.label = front night
+MenuItem_CBC65853_8FA5_EA63_41B6_7702BCDFC96B.label = front night
+MenuItem_E90CF2A1_8FA4_5EDE_41DE_B2473EDD3C06.label = front_night - rainy
+MenuItem_B6381A4B_9010_F1AD_41C1_81A305476136.label = human front night
+MenuItem_8128B2DA_A90D_6A5B_41C2_266DDA9D529B.label = kitchen
+MenuItem_8AA30F80_9A6F_D94A_41E3_2F8F0E7E21BE.label = landsacp day
+MenuItem_8AA31F80_9A6F_D94A_4192_F15DED926FEC.label = landscap_night
+MenuItem_AD0FF1C8_9C43_D53C_41BB_13E6D1AD317E.label = landscap_night rain
+MenuItem_142CF685_90F0_5EA5_41D5_3A2721D82E33.label = landscappe
+MenuItem_690A576C_7111_65D1_41CA_44DEBA8E9090.label = left
+MenuItem_CBC64853_8FA5_EA63_41B5_BB78DF952C40.label = left night
+MenuItem_CDC6DA37_D766_4456_41DB_81BC08B86854.label = main_image
+MenuItem_690A676C_7111_65D1_41B9_295C1C472347.label = right
+MenuItem_CBC61853_8FA5_EA63_41C4_5FAFD91F68DF.label = right night
+MenuItem_B6386A4B_9010_F1AD_41D6_5BB89B1CD045.label = road 3 day
+MenuItem_B6383A4B_9010_F1AD_41C3_78FA16575E05.label = road 3 night
+MenuItem_B638FA4B_9010_F1AD_41DD_43122E20E1CE.label = roud_1_day
+MenuItem_B6399A4B_9010_F1AD_41C6_E2CA24ABCE44.label = roud_1_night
