@@ -110,7 +110,7 @@ select option[value=""] {
 </head>
 <body>
   <div class="form-container">
-    <h2>User Registration Form</h2>
+    <h2>User Registration Formm</h2>
 
     <form id="userForm">
       <label>First Name</label>
@@ -153,7 +153,7 @@ select option[value=""] {
   </div>
 
   <script>
-   
+    document.addEventListener("DOMContentLoaded", function() {
 
 // نقوم بتعريف متغير عالمي لتخزين البيانات المجلوبة مرة واحدة
 let countriesAndCities = [];
@@ -288,9 +288,7 @@ function loadCitiesFromLocalData(selectedCountry) {
         console.error(err);
       }
     });
-  </script>
-
- <script>
+ //end and start script tag
 document.addEventListener("DOMContentLoaded", function () {
   const unitField = document.getElementById("unit_id");
   if (!unitField) return;
@@ -304,6 +302,7 @@ document.addEventListener("DOMContentLoaded", function () {
     unitField.setAttribute("readonly", true);
   }
 });
+    });
 </script>
 
 </body>
