@@ -304,25 +304,26 @@ window.showUnitDetails = async function(unitId) {
 
     const unit = result.data;
 
+    // expose the loaded unit data so other pages (like the registration form)
+    // can read the selected unit. Also persist to localStorage for cross-page use.
+    try {
+      window.selectedUnit = unit;
+      localStorage.setItem('selectedUnit', JSON.stringify(unit));
+    } catch (e) {
+      console.warn('Could not persist selectedUnit to localStorage', e);
+    }
+
     // 2. تحديد المكونات داخل container
     const unitnumber = window.blazeIT.getComponentByName("unit_number");
+    const unitname = window.blazeIT.getComponentByName("unit_number");
     const bedroomComp = window.blazeIT.getComponentByName("bedroom");
     const bathroomComp = window.blazeIT.getComponentByName("bathroom");
     const areaComp = window.blazeIT.getComponentByName("area");
     const priceComp = window.blazeIT.getComponentByName("price");
 
     // 3. تحديث القيم داخل المكونات
-    //if (unitnumber) unitnumber.set("text",  (unit.unit_no ?? "--"));
-   
-// تخزين رقم الوحدة في localStorage لاستخدامه في الفورم
-if (unitnumber) {
-  const value = unit.unit_no.toString(); // أو unit.unit_no لو عندك
-  unitnumber.set("text", value);
-
-  //  نخزن رقم الوحدة للفورم
-  localStorage.setItem("selected_unit_id", value);
-}
-
+    if (unitname) unitname.set("text", `${unit.unit_no ?? "--"}`);
+   // if (unitnumber) unitnumber.set("text", `${unit.id ?? "--"}`);
     if (bedroomComp) bedroomComp.set("text", unit.bedrooms_count ?? "--");
     if (bathroomComp) bathroomComp.set("text", unit.bathrooms_count ?? "--");
     if (areaComp) areaComp.set("text", unit.surface ?? "--");
